@@ -1,6 +1,17 @@
 ---
 title: "Data Import"
-output: githum_document
+output: github_document
 ---
 
 # Data Import CSVs
+
+################
+#importing readr
+################
+
+library (tidyverse
+)
+
+library (readr)
+
+read_csv
