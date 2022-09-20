@@ -3,12 +3,24 @@ Data Import
 
 # Data Import CSVs
 
-################ 
+\#importing packages
 
-\#importing readr \################
-
-library (tidyverse )
+library (tidyverse)
 
 library (readr)
 
-read_csv
+litter_df \<- read_csv (“./data_import_examples/FAS_litters.csv”)
+
+litter_df \<- janitor::clean_names(litter_df)
+
+litter_df
+
+head (litter_df)
+
+view (litter_df)
+
+skimr::skim(litter_df)
+
+help (read_csv)
+
+# Other File Formats
