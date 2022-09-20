@@ -24,3 +24,9 @@ skimr::skim(litter_df)
 help (read_csv)
 
 # Other File Formats
+
+``` r
+library (readxl)
+
+MLB_df <- read_excel ("./data_import_examples/mlb11.xlsx")
+```

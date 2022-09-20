@@ -30,5 +30,11 @@ help (read_csv)
 
 # Other File Formats
 
+```{r}
+library (readr)
 
+library (readxl)
 
+MLB_df <- read_excel ("./data_import_examples/mlb11.xlsx")
+
+view (mlb_df)
